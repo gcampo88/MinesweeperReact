@@ -1,0 +1,41 @@
+.cssme {
+  background: #71EEB8;
+}
+
+
+li {
+  list-style: none;
+  padding: 5px;
+  width: 16px;
+  height: 16px;
+  float: left;
+  background: inherit;
+  /*font-size: 12px;*/
+  border: 2px;
+  color: blue;
+  border-style: outset;
+}
+
+li:hover {
+  background: yellow;
+  cursor: pointer;
+}
+
+.bomb {
+  color: transparent;
+}
+
+
+.exp {
+  background: darkgrey;
+  border: 2px;
+  border-style: inset;
+}
+
+
+div {
+  width: 300px;
+  display: block;
+  margin: auto;
+  background: grey;
+}
